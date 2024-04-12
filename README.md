@@ -27,13 +27,14 @@ Para executar o notebook, siga os passos abaixo:
 2. Clone este repositório para sua máquina local:
 
    ```
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone git@github.com:NahDev/ibge_municipio_estado.git
    ```
 
 3. Navegue até o diretório onde o repositório foi clonado e inicie o Jupyter Notebook:
 
    ```
-   cd nome-do-repositorio
+   source venv/bin/activated
+   pip install -r requirements.txt
    jupyter notebook
    ```
 
@@ -57,8 +58,6 @@ pip install matplotlib geopandas pandas requests folium
 
 ## Autor
 
-Este notebook foi desenvolvido por [Seu Nome](https://github.com/seuusuario).
+Este notebook foi desenvolvido por [Nahuan Barreto](https://github.com/NahDev).
 
 ---
-
-Sinta-se à vontade para ajustar as seções conforme necessário e adicionar mais detalhes específicos sobre a análise e o ambiente de execução.
